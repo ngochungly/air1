@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+      "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="tp4.univ.paris13.model.Personne" table="PERSONNE">
+        <meta attribute="class-description">
+            .
+        </meta>
+        <id name="id" type="int" column="ID">
+            <generator class="assigned" />
+        </id>
+        <property name="nom" column="NOM" type="string" />
+        <property name="prenom" column="PRENOM" type="string" />
+        <property name="tel" column="TEL" type="string" />
+        <property name="mail" column="MAIL" type="string" />
+        
+        <many-to-one name="idAdresse" column="ID_ADRESSE" class="tp4.univ.paris13.model.Adresse"
+        	unique="true" not-null="true" />
+    </class>
+    
+</hibernate-mapping>

@@ -7,6 +7,10 @@ Servers/
 
 Annonce/.settings/
 Annonce/build/
+Annonce/target/
 BonjourLeMonde/.settings/
 RESTproject/.settings/
 RESTproject/RESTproject.war
+RESTproject/target/
+tp4/target/
+tp4/.settings/
