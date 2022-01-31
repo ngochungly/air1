@@ -1,0 +1,12 @@
+.metadata/
+EJBBonjourLeMonde/
+EJBHelloWorld/
+HelloWorldSessionBean/
+RemoteSystemsTempFiles/
+Servers/
+
+Annonce/.settings/
+Annonce/build/
+BonjourLeMonde/.settings/
+RESTproject/.settings/
+RESTproject/RESTproject.war
